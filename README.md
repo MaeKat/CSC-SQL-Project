@@ -9,8 +9,11 @@ What do I do?
 - move this folder over into your class folder
 - open the console for the server
 - PUT THIS IN YOUR CONSOLE 
+
 xxxxxx ==  YOUR USERNAME
+
 zzzzzz == YOUR PASSWORD
+
 
     mysql --local-infile -ucsxxxxxx -pzzzzzz csxxxxxx <petstore_create_table.sql
 
