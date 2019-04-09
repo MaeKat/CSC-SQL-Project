@@ -1,7 +1,7 @@
 # CSC-SQL-Project
 project for csc databases
 
-# Cause yall dont know what's happening:
+# Where Do I Start?:
 
 What do I do?
 - download these files/ link this repo
