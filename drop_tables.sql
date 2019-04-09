@@ -1,9 +1,0 @@
-drop table Store;
-drop table Employee;
-drop table Products;
-drop table Cat;
-drop table Dog;
-drop table Bird;
-drop table Fish;
-drop table Rabbit;
-drop table Items;
