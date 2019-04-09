@@ -31,6 +31,6 @@ OPTIONAL:
 
 This will drop all your tables and the data they have. You should never have to use this. Its just there. 
 
-Your primary goal is to write SQL scripts in the file petstore.sql.
+
 
 
