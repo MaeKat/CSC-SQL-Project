@@ -1,50 +1,50 @@
 CREATE TABLE Store (
-    storeID int,PRIMARY KEY,
+    storeID int PRIMARY KEY,
     storeAddress varchar(255),
     grossIncome float,
     revenue float
 );
 
 CREATE TABLE Employee (
-    employeeID int,PRIMARY KEY,
+    employeeID int PRIMARY KEY,
     storeID int,
     employeeName varchar(255),
     employeeSalary float,
     employeePosition varchar(255)
 );
 CREATE TABLE Products (
-    productID int,PRIMARY KEY,
+    productID int PRIMARY KEY,
     price float
 
 );
 CREATE TABLE Cat (
-    catID int,PRIMARY KEY,
+    catID int PRIMARY KEY,
     productID int,
     catColor varchar(255),
     catBreed varchar(255)
 );
 CREATE TABLE Dog (
-    dogID int,PRIMARY KEY,
+    dogID int PRIMARY KEY,
     productID int,
     dogColor varchar(255),
     dogBreed varchar(255)
 );
 CREATE TABLE Rabbit (
-    rabbitID int,PRIMARY KEY,
+    rabbitID int PRIMARY KEY,
     productID int,
     rabbitColor varchar(255),
     rabbitBreed varchar(255)
 );
 
 CREATE TABLE Bird (
-    birdID int,PRIMARY KEY,
+    birdID int PRIMARY KEY,
     productID int,
     birdColor varchar(255),
     birdBreed varchar(255)
 );
 
 CREATE TABLE Fish (
-    fishID int,PRIMARY KEY,
+    fishID int PRIMARY KEY,
     productID int,
     fishWaterType VARCHAR(225),
     fishColor varchar(255),
@@ -52,7 +52,7 @@ CREATE TABLE Fish (
 );
 
 CREATE TABLE Items (
-    itemID int ,PRIMARY KEY, 
+    itemID int PRIMARY KEY, 
     productID int,
     itemDescription varchar(255)
 );
